@@ -10,6 +10,8 @@ from wordcloud import WordCloud
 from sentence_transformers import SentenceTransformer
 import torch
 from io import BytesIO
+# "\end{code}"
+# Load the PDF file
 
 # Download NLTK Data
 nltk.download('stopwords')
